@@ -14,22 +14,21 @@ Scope {
 
             anchors {
                 top: true
-                left: true
                 right: true
             }
 
             color: "transparent"
             implicitHeight: 32
-         
-            Item {
-              id: container
-              anchors.fill: parent
 
-              Rectangle {
+            Item {
+                id: container
                 anchors.fill: parent
-                color: "#1e1e2e"
-                radius: 12
-              }
+
+                Rectangle {
+                    anchors.fill: parent
+                    color: Theme.base
+                    radius: 12
+                }
             }
 
             ClockWidget {

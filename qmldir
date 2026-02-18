@@ -1,0 +1,5 @@
+module qs
+Bar 1.0 Bar.qml
+ClockWidget 1.0 ClockWidget.qml
+singleton DateTime 1.0 DateTime.qml
+singleton Theme 1.0 Theme.qml
